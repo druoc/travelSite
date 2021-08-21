@@ -1,1 +1,1 @@
-alert('Oh deary');
+import '../styles/styles.css';
