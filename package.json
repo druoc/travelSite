@@ -1,39 +1,24 @@
 {
-  "name": "travelSite",
+  "name": "travel-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/druoc/travelSite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/druoc/travelSite/issues"
-  },
-  "homepage": "https://github.com/druoc/travelSite#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "node": "^16.6.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "css-loader": "^6.2.0",
-    "postcss-import": "^14.0.2",
-    "postcss-loader": "^6.1.1",
-    "postcss-mixins": "^8.1.0",
-    "postcss-nested": "^5.0.6",
-    "postcss-simple-vars": "^6.0.3",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0"
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.1",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.0.0",
+    "postcss-mixins": "^7.0.2",
+    "postcss-nested": "^5.0.3",
+    "postcss-simple-vars": "^6.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
